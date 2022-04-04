@@ -59,6 +59,7 @@ def score(right_guesses,guesses):
     print()
 
     score1=int((right_guesses*(100/9)))
+
     print("Your score is : " + str(score1) +" "+ "POINTS")
     print()
     print("G   A  M  E       O   V  E   R ! !")
