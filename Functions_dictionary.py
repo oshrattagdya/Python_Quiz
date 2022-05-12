@@ -2,10 +2,15 @@ def newgame():
     guesses= []
     right_gueses = 0
     questions_num=1
+    count = 0
     for key in questions:
         print("--------------------")
         print(key)
+        count+=1
+        if count==3:
+            print("THIS IS THE TOTAL SCORE")
         for i in answers[questions_num-1]:
+
             print(i)
         guess = input("Enter (A,B,C OR D): ")
         guess = guess.upper()
